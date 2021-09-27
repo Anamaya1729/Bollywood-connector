@@ -9,7 +9,7 @@ function preload()
 }
 
 function setup() {
-  createP("Bollywood Connector!!")
+  createP("Bollywood Connector!!").addClass("heading")
   graph = new Graph();
   dropDown1 = createSelect()
   dropDown1.addClass("dropdown1")
