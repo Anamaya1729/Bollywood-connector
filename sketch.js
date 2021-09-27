@@ -9,7 +9,11 @@ function preload()
 }
 
 function setup() {
-  createP("Bollywood Connector!!").addClass("heading")
+  createDiv(`<h1>Bollywood Connector!!</h1>`).addClass("heading")
+  createP(`This program shows the connection between diffrent actors. This is based on BFS algorithm to find
+  shortest path between two nodes. This shows how many people two actors should have in mutual to know 
+  each other.<br>
+  If it just returns the name of actor, hence they have no mutual circle according to dataset.`)
   graph = new Graph();
   dropDown1 = createSelect()
   dropDown1.addClass("dropdown1")
